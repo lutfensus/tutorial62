@@ -9,6 +9,7 @@ public class AnimalMain {
                 new Wolf("Bozkurtt")
         };
 
+
         for (Animal a : animals) {
             System.out.println(a.makeNoise());
             System.out.println(a.roam());

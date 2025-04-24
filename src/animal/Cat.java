@@ -5,6 +5,7 @@ public class Cat extends Feline {
         super(name);
     }
 
+
     @Override
     public String makeNoise() {
         return getName() + " says: meow!";
