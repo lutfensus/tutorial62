@@ -7,6 +7,6 @@ public abstract class Canine extends Animal {
 
     @Override
     public String roam() {
-        return getName() + " roams playfully.";
+        return getName() + " roams in a pack.";
     }
 }

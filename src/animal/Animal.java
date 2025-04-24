@@ -11,9 +11,13 @@ public abstract class Animal {
         return name;
     }
 
+    public void sleep() {
+        System.out.println(name + " is sleeping.");
+    }
+
     public abstract String makeNoise();
 
     public String roam() {
-        return getName() + " is wandering around.";
+        return name + " is wandering around.";
     }
 }
