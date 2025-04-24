@@ -3,8 +3,8 @@ package animal;
 public class AnimalMain {
     public static void main(String[] args) {
         Animal[] pets = {
-                new Cat("Mittens"),
-                new Dog("Rex")
+                new Cat("Garfield"),
+                new Dog("God")
         };
 
         for (Animal a : pets) {
