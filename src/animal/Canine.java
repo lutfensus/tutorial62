@@ -1,7 +1,7 @@
 package animal;
 
 public abstract class Canine extends Animal {
-    protected Canine(String name) {
+    public Canine(String name) {
         super(name);
     }
 
